@@ -1,6 +1,6 @@
 'use strict'
 
-const addon = require('./build/Release/xattr')
+const addon = require('./build/Release/xattr.node')
 
 function validateArgument (key, val) {
   switch (key) {
